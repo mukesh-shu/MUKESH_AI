@@ -2,10 +2,23 @@
 #brackets
 #identifiers
 #operators
+1. arithmatic 
+2. assigment:=,+=,-=,...
+3. relational:< ,> ,>=,<=,==,!=
+4. logical :and,or,not
+5. bitwise:&,|,~,^(xor),>>(right shift),<<(left)
+6.membership:in,not in
+7.identity: is ,is not
 #data & types
 #built_in function for datatype
 # control statements
 #conditional
+#looping
+#comprehensions
+#user defined functions
+#function parameterization
+## lambda expression
+
 #user configuration
 git config --global user.name "mukesh kumar"
 git config --global user.email "mukeshsharmabh501@gmail.com"
