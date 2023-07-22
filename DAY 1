@@ -11,3 +11,9 @@ git config --global user.name "mukesh kumar"
 git config --global user.email "mukeshsharmabh501@gmail.com"
 #remaote repository
 git remaote add "https://github.com/repo.git"
+
+#daily basis
+git add .
+git commit -m "first commit"
+#push the changes to git hub
+git push origin main
