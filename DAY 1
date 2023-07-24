@@ -10,6 +10,16 @@
 6.membership:in,not in
 7.identity: is ,is not
 #data & types
+float
+int 
+complex: 10+0j
+str
+list
+tuple
+dict
+set 
+bool
+Nonetype
 #built_in function for datatype
 # control statements
 #conditional
