@@ -20,6 +20,19 @@ dict
 set 
 bool
 Nonetype
+# concept of mutability
+ works only on collections
+ i. item acess
+    -Indexing 
+    -Subscripting
+    -Slicing
+  ii.Item Insertion  
+  iii. Item Assignment
+  iV. Item Deletion
+a. mutable 
+all are possible
+b. immutable
+ (i),{ii} possible
 #built_in function for datatype
 # control statements
 #conditional
