@@ -42,12 +42,16 @@ done
 #user defined functions
 #function parameterization
 ## lambda expression
+#generators
+#operators
+#modules and packages
+#object oriented programing
 
 #user configuration
 git config --global user.name "mukesh kumar"
 git config --global user.email "mukeshsharmabh501@gmail.com"
 #remote repository
-git remaote add "https://github.com/repo.git"
+git remote add "https://github.com/repo.git"
 
 #daily basis
 git add .
