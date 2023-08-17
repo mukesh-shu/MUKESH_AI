@@ -1,9 +1,6 @@
-import tkinter as ttk
-from tkinter import font
-clear_app = ttk.Tk()
-clear_app.title('Register Yourself')
-clear_app.geometry('600X400')
-font_ = font.Font(size=20)
+import pandas as pd
 
 
-clear_app.mainloop()
+df = pd.DataFrame({'name':[], 'enc':[]})
+fname = 'features.csv'
+df.to_csv(fname)

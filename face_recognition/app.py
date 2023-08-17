@@ -3,26 +3,30 @@ from tkinter import font
 app = ttk.Tk()
 app.title('attendence system ')
 app.geometry('400x400')
+app.config(background='white')
 font_ = font.Font(size=20)
 
 ttk.Label(app, 
-          text='Fcae Recognition based Attendence System',
+          text='Face Recognition based Attendence System',
           font=font_
 ).pack()
 
 def register():
-    app.destroy()
-    import login_admin
+    app.destroy()    
     with open('opr','w') as f:
-        f.write('Register')
+        f.write('register')
+    import login_admin
 
 def attendence():
+    import attendance 
+    attendance.attendacdnce()
     print('Attendence')
+
 def clear_data():
-     app.destroy()
-     with open('opr','w') as f:
+    app.destroy()   
+    with open('opr','w') as f:
         f.write('clear')
-     import login_admin
+    import login_admin
 
 ttk.Button(
     app, text='Register', command=register, font=font_,
