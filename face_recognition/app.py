@@ -19,8 +19,8 @@ def register():
 
 def attendence():
     import attendance 
-    attendance.attendacdnce()
-    print('Attendence')
+    attendance.attendance()
+    print('Attendance')
 
 def clear_data():
     app.destroy()   
